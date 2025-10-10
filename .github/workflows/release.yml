@@ -33,7 +33,7 @@ jobs:
         env:
           NOTATION_KEY: ${{ secrets.NOTATION_SIGNING_KEY }}
       - name: Setup Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
         with:
           go-version: 1.24.x
       - name: Setup Helm
